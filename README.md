@@ -1,6 +1,10 @@
 # MSRP & CPIM parser for Python
 
-This is a companion project to my [SIP/SDP parser](https://github.com/alxgb/sip-parser) and, unlike that one, is not based off of any existing library in another language. Since the MSRP/CPIM formats are pretty simple, so are the parsers. They don't validate the contents of the headers, they just put them into a structure that can be easily consumed. The tests can be run from the project root by simply executing `pytest`. And anyone's free to fork this and use it as a starting point for their own parser/needs, the license is MIT (See LICENSE file).
+This is a companion project to my [SIP/SDP parser](https://github.com/alxgb/sip-parser) and, unlike that one, is not based off of any existing library in another language. Since the MSRP/CPIM formats are pretty simple, so are the parsers. They don't validate the contents of the headers, they just put them into a structure that can be easily consumed.
+
+The tests can be run from the project root by simply executing `pytest` (provided you have `pytest` installed, of course).
+
+And lastly, anyone's free to fork this and use it as a starting point for their own parser/needs, the license is MIT (See LICENSE file).
 
 ## Examples
 
